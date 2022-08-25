@@ -1,0 +1,38 @@
+insert ! for boiler plate in vs code for html skeleton
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+</body>
+</html>
+
+doctype html states that document is written in html because there are many other documents which browser understands
+head has all meta tags which describe the website
+meta means information about information
+body contains info about webpage
+ctrl+/ for comment
+charset = utf8 means the characters utf8 will be used
+viewport encourages the responsive design set width equal to device width
+ie tag is for ie using people...full form is internet explorer.. ie=edge means jo sabse highest compatibility mode hai usme display karo
+we need to add two more meta tags   <meta name="description" content="This is a description"> and   <meta name="keywords" content="python, python tutorials">
+when we want that our website should not appear on search engine <meta name="robots" content="NOINDEX, NOFOLLOW"> otherwise write INDEX and FOLLOW
+    <link rel="stylesheet" href="harry.css"> to link stylesheet
+<script src="harry.js"></script> to link javascript (note that you need to type script:src not just script for boiler plate)
+you should only use one h1 tag in code to reduce seo of page...donnt use it to make bold
+lorem 4 to insert 4 words 
+strong tag makes the content bold
+em tag (not emp)  is emphasis tag by default it makes the text italic but we can change the attribute
+bold and italic tag exist but not used as strong and em tag are newer versions
+br tag is a self closing tag used to add line break...using br is not a good practice 
+hr tag is also a self closing tag called horizontal rule adds a line
+ctrl+enter will take you to new line start without using mouse
+<a href="www.google.com" target="_blank"></a>          target="_blank" makes you open the link in new tab instead loading on same tab..
+<a href="/index.html" target="_blank"></a> using slash and file name will open it when clicked on anchor text....
+ <img src="https://source.unsplash.com/random" alt="error"> this link will generate random images from unsplash other options for 
+unsplash images Specific User ,Specific Sizes,Random Image From Search Term

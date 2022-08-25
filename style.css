@@ -1,0 +1,20 @@
+body {
+    padding: 500px;
+    background-image: url(Unsplash.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed; 
+    /*can be stated like this also     background: #ffffff url("img_tree.png") no-repeat right top;*/
+   /* margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;*/
+   }
+
+  p {
+    color: red;
+  }  
+
+  
+  
